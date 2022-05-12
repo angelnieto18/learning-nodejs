@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+<body>
+	
+	<%- include('./partials/nav.ejs') %>
+	
+	<% skills.forEach(skill => { %>
+		<h1><%= skill.title %></h1>
+	<%})%>
+</body>
+</html>
